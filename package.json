@@ -1,0 +1,27 @@
+{
+  "name": "images1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "npm run build && node dist/index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-elsharkawy/images1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-elsharkawy/images1/issues"
+  },
+  "homepage": "https://github.com/ahmed-elsharkawy/images1#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
